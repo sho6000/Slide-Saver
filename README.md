@@ -1,9 +1,8 @@
-```markdown
+
 # Slide Saver - PowerPoint Presentation Generator
 
-Slide Saver is a Python application that allows you to easily create PowerPoint presentations from text input. It's designed to simplify the process of generating presentation slides for various purposes, such as church events, meetings, or any situation where you need to display textual content in a slide format.
+Slide Saver is a Python application that allows you to easily create PowerPoint presentations from text input. It's designed to simplify the process of generating presentation slides for various purposes, such as church events, meetings, or any situation where you need to display textual content in a slide format. [Click here for full code description | WiKi](https://github.com/sho6000/Slide-Saver/wiki/Code-Doumentation-Here)
 
-## [Click Here For full Code DESC](https://github.com/sho6000/Slide-Saver/wiki/Code-Doumentation-Here)
 
 ## Features
 
@@ -48,7 +47,11 @@ Slide Saver is a Python application that allows you to easily create PowerPoint 
 
 ## Contributing
 
-Contributions to Slide Saver are welcome! If you'd like to contribute, please open an issue or submit a pull request with your proposed changes.
+**<<<Contributions to Slide Saver are welcome! If you'd like to contribute, please open an issue or submit a pull request with your proposed changes>>>**
 
-```
+## ScreenShots
+
+![Screenshot 1](https://github.com/sho6000/)
+
+![Screenshot 2](https://github.com/sho6000/)
 
