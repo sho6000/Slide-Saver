@@ -9,7 +9,7 @@ import streamlit as st
 def generate_presentation(lyrics):
     # Font customization options
     st.subheader("Font Customization")
-    font_name = st.selectbox("Font:", ["Arial", "Times New Roman", "Verdana", "Helvetica", "Georgia", "Tahoma"])
+    font_name = st.selectbox("Font:", ["Arial", "Times New Roman", "Special Elite", "Helvetica", "Georgia", "Tahoma"], help="default is arial")
     font_size = st.slider("Font Size:", min_value=1, max_value=72, value=12)
     font_color = st.color_picker("Font Color:")
 
@@ -35,7 +35,7 @@ def generate_presentation(lyrics):
     # Custom background image upload
     custom_background = None
     if background_choice == "Custom Image":
-        custom_background = st.file_uploader("Upload Custom Background Image", type=["jpg", "jpeg", "png"])
+        custom_background = st.file_uploader("Upload Custom Background Image", type=["jpg", "jpeg", "png"], help="Custom Image can be 1024x768px OR 4:3")
 
     # Generate presentation button
     if st.button("Generate Presentation"):
@@ -89,6 +89,7 @@ def generate_presentation(lyrics):
                 run.font.name = font_name
                 run.font.size = Pt(font_size)
                 run.font.color.rgb = RGBColor(*font_color_rgb)
+                run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/SpecialElite-Regular.ttf'
 
                 # Apply line spacing
                 text_frame.space_after = Pt(font_size * line_spacing - font_size)
