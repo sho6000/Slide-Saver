@@ -51,6 +51,10 @@ Slide Saver is a Python application that allows you to easily create PowerPoint 
 
 ## ScreenShots
 
+![Screenshot 2023-10-28 145008](https://github.com/sho6000/Slide-Saver/assets/122631521/57b4612a-d07a-4f58-a9e3-f3b55585a0f2)
+![Screenshot 2023-10-28 145036](https://github.com/sho6000/Slide-Saver/assets/122631521/5ba7f06a-e611-4e06-a653-baa3dfc00eb0)
+
+
 ![Screenshot 1](https://github.com/sho6000/)
 
 ![Screenshot 2](https://github.com/sho6000/)
