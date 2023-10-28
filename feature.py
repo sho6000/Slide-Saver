@@ -93,9 +93,9 @@ def generate_presentation(lyrics):
                 run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/Helvetica.ttf'
                 run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/times-new-roman.ttf'
                 run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/AnonymousPro-Regular.ttf'
-                run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/Agrandir-Regular.otf'
+                run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/Agrandir-Regular.ttf'
       
-      
+
                 # Apply line spacing
                 text_frame.space_after = Pt(font_size * line_spacing - font_size)
 
