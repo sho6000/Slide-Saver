@@ -9,7 +9,7 @@ import streamlit as st
 def generate_presentation(lyrics):
     # Font customization options
     st.subheader("Font Customization")
-    font_name = st.selectbox("Font:", ["Arial", "Times New Roman", "Special Elite", "Helvetica", "Georgia", "Tahoma"], help="default is arial")
+    font_name = st.selectbox("Font:", ["Arial", "Times New Roman", "Special Elite", "Helvetica"], help="default is arial")
     font_size = st.slider("Font Size:", min_value=1, max_value=72, value=12)
     font_color = st.color_picker("Font Color:")
 
@@ -90,6 +90,9 @@ def generate_presentation(lyrics):
                 run.font.size = Pt(font_size)
                 run.font.color.rgb = RGBColor(*font_color_rgb)
                 run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/SpecialElite-Regular.ttf'
+                run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/Helvetica.ttf'
+                run.font.embed_url = 'C:/Users/ASUS/Desktop/py_proje/Slide Saver/font/times-new-roman.ttf'
+
 
                 # Apply line spacing
                 text_frame.space_after = Pt(font_size * line_spacing - font_size)
