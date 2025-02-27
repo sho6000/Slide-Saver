@@ -2,7 +2,7 @@ import streamlit as st
 from feature import generate_presentation
 
 # Streamlit app title
-# st.title("Slide Saver | PowerPoint Presentation Generator")
+st.set_page_config(page_title="Slide Saver | PowerPoint Presentation Generator", layout="wide")
 
 # User input section
 st.header("version 2.0")

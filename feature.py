@@ -7,7 +7,7 @@ from datetime import datetime
 import streamlit as st
 
 # App title and description
-st.set_page_config(page_title="Slide Saver", layout="wide")
+# st.set_page_config(page_title="Slide Saver", layout="wide")
 st.title("🎤 Slide Saver - Generate Lyrics Presentation")
 st.markdown("Customize and generate a PowerPoint presentation from your song lyrics.")
 
